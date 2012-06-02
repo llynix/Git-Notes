@@ -1,15 +1,29 @@
 Notes from May 21st Refresh Wichita Falls meeting.  Added with notes from my experiences.
 
+----
+To create a new repository and push it to a remote server.
+----
 Have directory with your files in it.  Inside that directory in a command shell.
 git init
 git add . (all files) git add <path>
 git commit -m 'First Commit'
-git remote add github git@github.com:llynix/Simple-Google-Maps-Shortcode.git
+git remote add github git@github.com:llynix/Git-Notes.git
 git push github master
-----
-git clone git://github.com/llynix/Simple-Google-Maps-Shortcode.git
-----
 
+----
+To Clone an existing repository
+----
+git clone git://github.com/llynix/Git-Notes.git
+
+----
+Status
+----
+git status
+git status -s (short)
+
+----
+other Notes
+----
 
 git checkout -b newbranch
 git checkout master
@@ -28,7 +42,5 @@ git mergetool
 git branch -d example
 * delete branch
 
-git status
-git status -s
 git remote (list remotes)
 reveal.js (Neat slideshow HTML 5)
