@@ -44,3 +44,13 @@ git branch -d example
 
 git remote (list remotes)
 reveal.js (Neat slideshow HTML 5)
+
+-------------
+# clone a repository on a new machine and then push changes back up to github
+git commit -am 'Added style to work with responsive design'
+git remote add github git@github.com:llynix/Simple-Google-Maps-Shortcode.git
+cd ~/.ssh
+ssh-keygen -t rsa
+# put id_rsa.pub on github
+git push github master
+
